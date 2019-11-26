@@ -1,0 +1,25 @@
+{
+  "name": "Lee",
+  "description": "Lee framework",
+  "keywords": [
+    "php",
+    "swoole"
+  ],
+  "authors": [
+    {
+      "name": "lee",
+      "email": "8579925730@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+       "Lee\\": "framework/Lee",
+       "App\\": "application/"
+    }
+  },
+  "require": {
+    "php": ">=7.0",
+    "ext-swoole":">=4.0",
+    "firebase/php-jwt": "^5.0"
+  }
+}
