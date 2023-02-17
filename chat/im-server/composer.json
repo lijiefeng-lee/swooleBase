@@ -20,6 +20,6 @@
   "require": {
     "php": ">=7.0",
     "ext-swoole":">=4.0",
-    "firebase/php-jwt": "^5.0"
+    "firebase/php-jwt": "^6.0"
   }
 }
